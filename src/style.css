@@ -1,0 +1,11 @@
+.form_data{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    margin-top: 25vh;
+}
+
+input,label{
+    font-size: large;
+    margin: 1.1rem;
+}
