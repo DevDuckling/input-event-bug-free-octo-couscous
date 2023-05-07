@@ -22,3 +22,15 @@ for(let input of [u_name, u_cc, check_box]){
     })
 }
 
+// -------------- Creating Element ---------------------
+const p = document.createElement('p');
+
+p.innerText = 'Open Console and type form_data to access information works when you have something in input';
+
+const a = document.createElement('a');
+a.setAttribute('href', 'https://github.com/DevDuckling');
+a.innerText = 'Dev Duckling';
+
+form.append(p,a);
+
+// --------------build complete---------------------
